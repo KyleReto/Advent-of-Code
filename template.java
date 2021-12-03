@@ -8,7 +8,7 @@ class Template {
     }
 
     // Given an input file, outputs an array of trimmed strings.
-    public static String[] getInput(String path) throws IOException{
+    public static String[] getInput() throws IOException{
         String textInput = Files.readString(Paths.get("./inputs/2.txt"));
         String[] inputs = textInput.split("\n");
         for (int i = 0; i < inputs.length; i++){
