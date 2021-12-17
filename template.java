@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 class Template {
     
     public static void main(String[] args) throws IOException{
-        String[] input = getInput(4);
+        String[] input = getInput(0);
     }
 
     // Given an input file, outputs an array of trimmed strings.
